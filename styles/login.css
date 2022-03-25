@@ -1,0 +1,47 @@
+#navbar{
+    display: flex;
+    gap: 50px;
+    justify-content: right;
+    padding-right: 50px;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 50px;
+}
+
+#login-form-div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 30%;
+    height: 300px;
+    margin: auto;
+    
+}
+
+#login-form-div>h1{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 20px auto;
+    width: 80%;
+    height: 30px;
+    
+}
+
+#submit{
+    width: 50%;
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+
+
+

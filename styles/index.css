@@ -1,0 +1,45 @@
+#navbar{
+    display: flex;
+    gap: 50px;
+    justify-content: right;
+    padding-right: 50px;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 50px;
+}
+
+#slideshow{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+}
+
+h3,h4{
+    text-align: center;
+}
+
+#div2{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+#sort-buttons{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 50px;
+
+}
+
+#sort{
+    display: block;
+    margin: auto;
+    height: 50%;
+    width: 20%;
+    background-color: aquamarine;
+    border-radius: 50px;
+}
